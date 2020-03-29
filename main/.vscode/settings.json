@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "surface.h": "c",
+        "interactive.h": "c",
+        "operation.h": "c",
+        "interface.h": "c",
+        "text.h": "c",
+        "widget.h": "c",
+        "ui_data.h": "c"
+    }
+}

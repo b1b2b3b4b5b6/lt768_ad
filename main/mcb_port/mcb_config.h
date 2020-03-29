@@ -1,0 +1,24 @@
+#ifndef MCB_CONFIG_H
+#define MCB_CONFIG_H
+
+#define MESH_MAX_CHILD_NODE 1
+#define MESH_MAX_LAYER 6
+#define APP_NAME "app.bin"
+
+#define INIT_MESH_ID "00:00:00:00:00:00"
+
+#define SERVER_OTA_PORT 4798
+#define SERVER_FIND_PORT 4799
+
+#define UPLOAD_PORT 4800
+#define LISTEN_PORT 4801
+
+#define TCP_SERVER "192.168.1.117"
+#define TCP_PORT 4802
+
+#define DEVICE_ONLINE_TIME_PEROID_S 10
+#define BRUST_TIME_PEROID_S 80
+
+#define DEVICE_TYP "UIT"
+
+#endif

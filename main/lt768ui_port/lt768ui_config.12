@@ -1,0 +1,28 @@
+//12v power
+#ifndef LT768UI_CONFIG_H
+#define LT768UI_CONFIG_H
+
+#define W25Q_PIN_NUM_MOSI 27
+#define W25Q_PIN_NUM_MISO 12
+#define W25Q_PIN_NUM_CLK  26
+#define W25Q_PIN_NUM_CS 14
+#define W25Q_PIN_NUM_WP 13
+#define W25Q_PIN_NUM_HD 25
+
+
+#define LT768_PIN_NUM_TFT_RESET 18
+#define LT768_LT768_PIN_NUM_RESET 15
+
+#define LT768_PIN_NUM_MOSI 5
+#define LT768_PIN_NUM_CLK 32
+#define LT768_PIN_NUM_CS 4
+#define LT768_PIN_NUM_BL 2
+#define LT768_PIN_NUM_INIT 33
+
+// #define TP_PIN_NUM_RESET 19
+#define TP_I2C_MASTER_SCL_IO          21               /*!< gpio number for I2C master clock */
+#define TP_I2C_MASTER_SDA_IO          22               /*!< gpio number for I2C master data  */
+#define TP_PIN_NUM_INIT 23
+
+
+#endif
